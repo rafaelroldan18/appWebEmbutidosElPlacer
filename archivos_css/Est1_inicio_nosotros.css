@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Supermercado+One&family=Zen+Kurenaido&display=swap');* {
+  box-sizing: border-box;
+}
+#cabeza{
+	display: flex;
+	justify-content: center;
+	padding: 10px 10px;
+}
+/*Diseño Barra navegacion*/
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+  overflow: hidden;
+  background-color: #ef3f23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+body{
+  background-color:#f6f5f5;
+}
+#imgF {
+display: flex;
+justify-content: center;
+}
+/*Diseño contenido principal */
+.contenedor{
+font-family: 'Zen Kurenaido', sans-serif;
+      width: 90%;
+      padding-right: 20px;
+      padding-left: 20px;
+      margin-right: auto;
+      margin-left: auto;
+}
+div{
+  display: block;
+}
+.titulo{
+  text-align: center;
+color: #A01700;
+font-size: 35px;
+text-transform: none;
+}
+.hilera{
+  display: flex;
+  flex-grow: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.info{
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 15PX;
+  padding-left: 15px;
+}
+.subT{
+  text-align: center;
+  color: #A01700;
+  font-size: 30px;
+}
+.ContentText{
+  text-align: justify;
+  font-size: 20px;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  }
+
+
+.myimages{
+  padding: 0.25rem;
+background-color: #fff;
+border: 1px solid #dee2e6;
+border-radius: 0.25rem;
+max-width: 100%;
+height: auto;
+align-content: center;
+}
+img{
+  vertical-align: middle;
+}
+
+/*Diseño pie de pagina*/
+footer div {
+  display: flex;
+  margin: 0;
+  padding: 8px 16px;
+  justify-content: space-evenly;
+  color: white;
+}
+footer p{
+	text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+	}
+
+footer ul {
+  list-style-type: none;
+}
+
+#copyrigth {
+  background-color: #ef3f23;
+  text-align: center;
+  padding: 10px 10px;
+	font-size: 12px;
+}

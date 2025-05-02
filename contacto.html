@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Contacto | Embutidos el Placer</title>
+  <link rel="stylesheet" href="archivos_css/reset_normalize.css">
+  <link rel="icon" type="image/x-icon" href="graficos/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="archivos_css/Est3_contacto.css">
+</head>
+
+<body>
+  <header>
+    <div id="cabeza" style="background: url(graficos/fondodiv.png);">
+      <img src="graficos/logotipo.png" height="100px">
+    </div>
+    <!-- Barra de navegacion -->
+    <nav>
+      <ul>
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="nosotros.html">NOSOTROS</a></li>
+        <li><a href="productos.html">PRODUCTOS</a></li>
+        <li><a href="recetario.html">RECETARIO</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--   Contenedor principal-->
+  <div class="contenedor">
+    <div class="contac-escrib">
+      <section class="contacto">
+        <h1>Contactenos: </h1><br>
+        <table align="center">
+          <tr id="f-1">
+            <th>Ruta</th>
+            <th>Referencia</th>
+            <th>Teléfono</th>
+          </tr>
+          <tr>
+            <th>Píllaro - Tugurahua</th>
+            <th>Av. Circunvalación - Via a Penileo</th>
+            <th>0988482712<br>0990667634</th>
+          </tr>
+        </table>
+      </section>
+      <section class="contacto"><br>
+        <hr>
+        <h1>Escribanos:</h1>
+        <form id="f-coment" >
+          <label>Asunto:</label><br>
+          <input type="text" id="asunto" value="" class="entrada" placeholder="Escriba el asunto"><br>
+          <label>Correo eletrónico de contacto: </label><br>
+          <input type="email" id="email" value="" class="entrada" placeholder="Escriba su correo"><br>
+          <label>Mensaje:</label><br>
+          <textarea id="txarea" rows="8" cols="80" placeholder="Escriba su requerimiento, sugerencia, comentario, etc."></textarea><br>
+          <input type="button" onclick="verificar(), form.reset()" value="Enviar " class="botonC">
+        </form>
+      </section>
+    </div>
+
+    <div class="ubication">
+      <section class="bord" id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1709.043989491781!2d-78.5564691278402!3d-1.1682949782649845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1b02d15aaae8c13a!2zMcKwMTAnMDMuOCJTIDc4wrAzMycyMC40Ilc!5e1!3m2!1ses!2sec!4v1643905445093!5m2!1ses!2sec"
+          style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </section>
+      <section class="bord">
+        <img src="graficos/foto-em.png" alt="" class="img" width="400px">
+      </section>
+    </div>
+  </div>
+  <!-- Pie de pagina -->
+  <footer>
+    <div style="background:url( graficos/fondodiv.png);">
+      <section>
+        <ul>
+          <b>Empresa</b>
+          <li><a href="index.html"><br>Inicio</a></li><br>
+          <li><a href="nosotros.html">Nosotros</a></li><br>
+          <li><a href="productos.html">Productos</a></li><br>
+          <li><a href="recetario.html">Recetario</a></li><br>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </section>
+      <section>
+        <br>
+        <p><b>Dirección <br></b><br>Píllaro-Tungurahua</p>
+        <p><b>Contacto <br></b><br>0988482712 / 0990667634</p>
+      </section>
+      <section>
+        <p><b>Redes Sociales</b></p>
+        <ul>
+          <li><a target=_blank href="https://www.facebook.com/Embutidos-El-Placer-1095237517301805/"><img src="graficos/facebook.png" alt="facebook" width="20px"> Facebook</a></li><br>
+          <li><a target=_blank href="https://www.instagram.com/?hl=es-la"><img src="graficos/instagram.png" alt="instagram" width="20px"> Instagram</a></li><br>
+          <li><a target=_blank href="https://twitter.com/?lang=es"><img src="graficos/twitter.png" alt="twitter" width="20px"> Twitter</a></li>
+        </ul>
+      </section>
+    </div>
+    <!-- Código js -cambio de color al pasar el mouse en los enlaces -->
+    <script>
+      window.onload = function() {
+        elemH = document.querySelectorAll('a');
+
+        for (var i = 0; i < elemH.length; i++) {
+          elemH[i].onmouseover = function() {
+            return this.style.color = "#e7b504";
+          }
+          elemH[i].onmouseout = function() {
+            return this.style.color = "white";
+          }
+        }
+      }
+    </script>
+
+    <div id="copyrigth">
+      <p>DERECHOS RESERVADOS EMBUTIDOS EL PLACER <br>PÍLLARO-ECUADOR</p>
+    </div>
+  </footer>
+<script type="text/javascript" src="archivos_js/contact.js">
+
+</script>
+</body>
+
+</html>

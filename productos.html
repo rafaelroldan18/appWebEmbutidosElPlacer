@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Productos | Embutidos el Placer</title>
+  <link rel="stylesheet" href="archivos_css/reset_normalize.css">
+  <link rel="icon" type="image/x-icon" href="graficos/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="archivos_css/Est2_productos_recetario.css">
+</head>
+
+<body>
+  <header>
+    <div id="cabeza" style="background: url(graficos/fondodiv.png);">
+      <img src="graficos/logotipo.png" height="100px">
+    </div>
+    <!-- Barra de navegacion -->
+    <nav>
+      <ul>
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="nosotros.html">NOSOTROS</a></li>
+        <li><a href="productos.html">PRODUCTOS</a></li>
+        <li><a href="recetario.html">RECETARIO</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--   Contenedor principal-->
+  <div class="contenedor">
+    <h1>Disfruta de nuestra deliciosa linea de producción</h1>
+    <div class="productos">
+      <section class="unidades">
+        <img src="graficos/botonCervezero.png" alt="" width="300px" class="images">
+        <h2>Botón de Cerdo</h2>
+        <button class="mibotons" id="open1" type="button" name="button">Ver detalles</button>
+      </section>
+      <section class="unidades">
+        <img src="graficos/botonRes.png" alt="" width="300px" class="images">
+        <h2>Botón de Res</h2>
+        <button class="mibotons" id="open2" type="button" name="button">Ver detalles</button>
+      </section>
+      <section class="unidades">
+        <img src="graficos/botonPaisa.png" alt="" width="300px" class="images">
+        <h2>Botón Paisa</h2>
+        <button class="mibotons" id="open3" type="button" name="button">Ver detalles</button>
+      </section>
+    </div>
+
+    <div class="productos">
+      <section class="unidades">
+        <img src="graficos/botonPollo.png" alt="" width="300px" class="images">
+        <h2>Botón de Pollo</h2>
+        <button class="mibotons" id="open4" type="button" name="button">Ver detalles</button>
+      </section>
+      <section class="unidades">
+        <img src="graficos/chorizoDuro.png" alt="" width="300px" class="images">
+        <h2>Chorizo Duro</h2>
+        <button class="mibotons"  id="open5" type="button" name="button">Ver detalles</button>
+      </section>
+      <section class="unidades">
+        <img src="graficos/chorizoPaisa.png" alt="" width="300px" class="images">
+        <h2>Chorizo Paisa</h2>
+        <button class="mibotons" id="open6" type="button" name="button">Ver detalles</button>
+      </section>
+    </div>
+
+    <div class="productos">
+      <section class="unidades">
+        <img src="graficos/Longaniza.png" alt="" width="300px" class="images">
+        <h2>Longaniza</h2>
+        <button class="mibotons" id="open7" type="button" name="button">Ver detalles</button>
+      </section>
+      <section class="unidades">
+        <img src="graficos/salchichaRes.png" alt="" width="300px" class="images">
+        <h2>Salchicha de Res</h2>
+        <button class="mibotons"  id="open8" type="button" name="button">Ver detalles</button>
+      </section>
+      <section class="unidades">
+        <img src="graficos/salchichaPollo.png" alt="" width="300px" class="images">
+        <h2>Salchicha de Pollo</h2>
+        <button class="mibotons"  id="open9" type="button" name="button">Ver detalles</button>
+      </section>
+    </div>
+
+    <!--Ventanas emergentes de todo los productos-->
+    <!-- ventana1 -->
+    <div class="modal-container" id="modal_container1">
+      <section class="modal">
+        <h3>Boton de Cerdo</h3>
+        <hr>
+        <img src="graficos/botonCervezero.png" alt="BC" width="200px">
+        <p>Son muy ricos en potasio, magnesio, fósforo, cinc y también en proteínas que al proceder de la carne, son de muy buenda calidad. <br>
+          Sugerimos consumirla cocida: a la brasa, o en sartén. <br>
+          PRESENTACIÓN <br>
+          EMPAQUE AL VACÍO <br>
+          400 g • 1000 g <br>
+          Conservar en refrigeración a 4°C</p><hr>
+          <button class="mibotons" id="close1" type="button" name="button">Cerrar</button>
+      </section>
+    </div>
+    <!-- ventana2 -->
+    <div class="modal-container" id="modal_container2">
+      <section class="modal">
+        <h3>Botón de Res</h3>
+        <hr>
+        <img src="graficos/botonRes.png" alt="BC" width="200px">
+        <p>Tienen un alto nivel de selenio. Este nutriente se necesita en pocas cantidades y los embutidos aportan la cantidad diaria recomendada
+          Sugerimos consumirla cocida: a la brasa, o en sartén. <br>
+          PRESENTACIÓN <br>
+          EMPAQUE AL VACÍO <br>
+          500 g • 2000 g <br>
+          Conservar en refrigeración a 4°C</p><hr>
+          <button class="mibotons" id="close2" type="button" name="button">Cerrar</button>
+      </section>
+    </div>
+    <!-- ventana3 -->
+    <div class="modal-container" id="modal_container3">
+      <section class="modal">
+        <h3>Botón Paisa</h3>
+        <hr>
+        <img src="graficos/botonPaisa.png" alt="BC" width="200px">
+        <p>Tampoco debemos olvidar que entre los beneficios nutricionales que los embutidos se encuentra un buen aporte de minerales, especialmente importante también para los niños<br>
+          Sugerimos consumirla cocida: a la brasa, o en sartén. <br>
+          PRESENTACIÓN <br>
+          EMPAQUE AL VACÍO <br>
+          600 g • 1000 g <br>
+          Conservar en refrigeración a 4°C</p><hr>
+          <button class="mibotons" id="close3" type="button" name="button">Cerrar</button>
+      </section>
+    </div>
+    <!-- ventana4 -->
+    <div class="modal-container" id="modal_container4">
+      <section class="modal">
+        <h3>Botón de Pollo</h3>
+        <hr>
+        <img src="graficos/botonPollo.png" alt="BC" width="200px">
+        <p>Ideal para personas con anemia por falta de hierro. Su alto contenido en hierro y vitamina B12 convierte a este alimento en idónea para combatir la anemia a cuando se tiene los niveles de hierro bajos.<br>
+          Sugerimos consumirla cocida: a la brasa, o en sartén. <br>
+          PRESENTACIÓN <br>
+          EMPAQUE AL VACÍO <br>
+          600 g • 1000 g • 2000 g <br>
+          Conservar en refrigeración a 4°C</p><hr>
+          <button class="mibotons" id="close4" type="button" name="button">Cerrar</button>
+      </section>
+    </div>
+    <!-- ventana5 -->
+    <div class="modal-container" id="modal_container5">
+      <section class="modal">
+        <h3>Chorizo Duro</h3>
+        <hr>
+        <img src="graficos/chorizoDuro.png" alt="BC" width="200px">
+        <p>Un adobado suave con temperatura y humedad controlada. Un alimento que se destingue por su gran veta en el corte y, sobre todo por su sabor, calidad y jugosidad.<br>
+          Sugerimos consumirla cocida: a la brasa, o en sartén. <br>
+          PRESENTACIÓN <br>
+          EMPAQUE AL VACÍO <br>
+          800 g • 1000 g <br>
+          Conservar en refrigeración a 4°C</p><hr>
+          <button class="mibotons" id="close5" type="button" name="button">Cerrar</button>
+      </section>
+    </div>
+    <!-- ventana6 -->
+    <div class="modal-container" id="modal_container6">
+      <section class="modal">
+        <h3>Chorizo Paisa</h3>
+        <hr>
+        <img src="graficos/chorizoPaisa.png" alt="BC" width="200px">
+        <p>Puedes comerlo y prepararlo de diferente forma curado, ahumado, rustizado, asado, a la parrilla, al vapor, salteado, braseado, frito y estofado.<br>
+          PRESENTACIÓN <br>
+          EMPAQUE AL VACÍO <br>
+          1000 g <br>
+          Conservar en refrigeración a 4°C</p><hr>
+          <button class="mibotons" id="close6" type="button" name="button">Cerrar</button>
+      </section>
+    </div>
+    <!-- ventana7 -->
+    <div class="modal-container" id="modal_container7">
+      <section class="modal">
+        <h3>Longaniza</h3>
+        <hr>
+        <img src="graficos/Longaniza.png" alt="BC" width="200px">
+        <p>En primer logar, debes cortar la grasa de la piel de cerdo y cortar esta en trozos pequeños, luego de lo cual deberás colocarlos en el horno para deshidratarlos.<br>
+          PRESENTACIÓN <br>
+          EMPAQUE AL VACÍO <br>
+          600 g • 1500 g <br>
+          Conservar en refrigeración a 4°C</p><hr>
+          <button class="mibotons" id="close7" type="button" name="button">Cerrar</button>
+      </section>
+    </div>
+    <!-- ventana8 -->
+    <div class="modal-container" id="modal_container8">
+      <section class="modal">
+        <h3>Salchicha de Res</h3>
+        <hr>
+        <img src="graficos/salchichaRes.png" alt="BC" width="200px">
+        <p>Proporcionan la energía que necesitas antes de hacer ejercicio, ya que son una fuente de importante de  calorías.<br>
+          Sugerimos consumirla cocida: a la brasa, o en sartén. <br>
+          PRESENTACIÓN <br>
+          EMPAQUE AL VACÍO <br>
+          200 g • 600 g <br>
+          Conservar en refrigeración a 4°C</p><hr>
+          <button class="mibotons" id="close8" type="button" name="button">Cerrar</button>
+      </section>
+    </div>
+    <!-- ventana9 -->
+    <div class="modal-container" id="modal_container9">
+      <section class="modal">
+        <h3>Salchicha de Pollo</h3>
+        <hr>
+        <img src="graficos/salchichaPollo.png" alt="BC" width="200px">
+        <p>Son ricos en potasio, zinc, magnesio y fósforo y por sus puesto, si la calidad de la carne de la procede el embutido es buena, sus proiedades serán mejores.<br>
+          Sugerimos consumirla cocida: a la brasa, o en sartén. <br>
+          PRESENTACIÓN <br>
+          EMPAQUE AL VACÍO <br>
+          400 g • 1000 g <br>
+          Conservar en refrigeración a 4°C</p><hr>
+          <button class="mibotons" id="close9" type="button" name="button">Cerrar</button>
+      </section>
+    </div>
+  </div>
+  <!-- Pie de pagina -->
+  <footer>
+    <div style="background:url( graficos/fondodiv.png);">
+      <section>
+        <ul>
+          <b>Empresa</b>
+          <li><a href="index.html"><br>Inicio</a></li><br>
+          <li><a href="nosotros.html">Nosotros</a></li><br>
+          <li><a href="productos.html">Productos</a></li><br>
+          <li><a href="recetario.html">Recetario</a></li><br>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </section>
+      <section>
+        <br>
+        <p><b>Dirección <br></b><br>Píllaro-Tungurahua</p>
+        <p><b>Contacto <br></b><br>098 848 2712 / 0990667634</p>
+      </section>
+      <section>
+        <p><b><br>Redes Sociales</b></p>
+        <ul>
+          <li><a target=_blank href="https://www.facebook.com/Embutidos-El-Placer-1095237517301805/"><img src="graficos/facebook.png" alt="facebook" width="20px"> Facebook</a></li><br>
+          <li><a target=_blank href="https://www.instagram.com/?hl=es-la"><img src="graficos/instagram.png" alt="instagram" width="20px"> Instagram</a></li><br>
+          <li><a target=_blank href="https://twitter.com/?lang=es"><img src="graficos/twitter.png" alt="twitter" width="20px"> Twitter</a></li>
+        </ul>
+      </section>
+    </div>
+    <script>
+    <!-- Código js -cambio de color al pasar el mouse en los enlaces -->
+      window.onload = function() {
+        elemH = document.querySelectorAll('a');
+
+        for (var i = 0; i < elemH.length; i++) {
+          elemH[i].onmouseover = function() {
+            return this.style.color = "#e7b504";
+          }
+          elemH[i].onmouseout = function() {
+            return this.style.color = "white";
+          }
+        }
+      }
+    </script>
+    <div id="copyrigth">
+      <p>DERECHOS RESERVADOS EMBUTIDOS EL PLACER <br>PÍLLARO-ECUADOR</p>
+    </div>
+  </footer>
+  <script src="archivos_js/app1.js" > </script>
+</body>
+</html>

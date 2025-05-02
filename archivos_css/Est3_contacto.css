@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Supermercado+One&family=Zen+Kurenaido&display=swap');* {
+  box-sizing: border-box;
+}
+#cabeza{
+	display: flex;
+	justify-content: center;
+	padding: 10px 10px;
+}
+/*Diseño Barra navegacion*/
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+  overflow: hidden;
+  background-color: #ef3f23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+body{
+  background-color:#f6f5f5;
+}
+/*Diseño contenido principal */
+h1{
+    text-align: center;
+    color: #A01700;
+  }
+
+.contenedor{
+  font-family: 'Zen Kurenaido', sans-serif;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contac-escrib, .ubication{
+  margin: 25px;
+}
+.contac{
+  display: flex;
+}
+.contacto table tr,th{
+ border: 1px solid black;
+ margin: 25px;
+ padding: 5px 20px;
+}
+#f-1 th{
+  background-color: #7c7e81;
+}
+#map iframe{
+width: 400px;
+height: 400px;
+}
+.bord{
+  padding: 0.25rem;
+background-color: #fff;
+border: 1px solid #dee2e6;
+border-radius: 0.25rem;
+max-width: 100%;
+height: auto;
+align-content: center;
+margin: 15px;
+}
+
+#f-coment{
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+}
+
+.entrada{
+width: 100%;
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+}
+.botonC{
+ background-color:#e7b504;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px rgb(210, 0, 0, 0.4);
+  color: white;
+  font-size: 17px;
+  padding:5px 15px;
+  margin:0px 230px;
+}
+.botonC:hover{
+  background-color: #ba492e;
+}
+/*Diseño pie de pagina*/
+footer div {
+  display: flex;
+  margin: 0;
+  padding: 8px 16px;
+  justify-content: space-evenly;
+  color: white;
+}
+footer p{
+	text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+	}
+
+footer ul {
+  list-style-type: none;
+}
+
+#copyrigth {
+  background-color: #ef3f23;
+  text-align: center;
+  padding: 10px 10px;
+	font-size: 12px;
+}

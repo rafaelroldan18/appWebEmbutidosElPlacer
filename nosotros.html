@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Nosotros | Embutidos el Placer</title>
+  <link rel="stylesheet" href="archivos_css/reset_normalize.css">
+  <link rel="icon" type="image/x-icon" href="graficos/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="archivos_css/Est1_inicio_nosotros.css">
+</head>
+
+<body>
+  <header>
+    <div id="cabeza" style="background: url(graficos/fondodiv.png);">
+      <img src="graficos/logotipo.png" height="100px">
+    </div>
+    <!-- Barra de navegacion -->
+    <nav>
+      <ul>
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="nosotros.html">NOSOTROS</a></li>
+        <li><a href="productos.html">PRODUCTOS</a></li>
+        <li><a href="recetario.html">RECETARIO</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <!--   Contenedor principal-->
+
+    <div class="contenedor">
+      <h1 class="titulo">Experiencia, Trabajo y Tradición</h1><br>
+      <div class="hilera">
+        <section class="info">
+          <h2 class="subT">Objetivo</h2>
+          <p class="ContentText">Para lograr esta meta, Embutidos el Placer se ha convertido en una Empresa eficiente, eficaz e innovadora, utilizando en sus procesos productivos, maquinaria equipada con tecnología de punta, permitiendo de esta manera ofrecer productos altamente competitivos a nivel nacional. </p>
+        </section>
+        <section class="info">
+          <img src="graficos/img2.png" alt="" class="myimages">
+        </section>
+      </div>
+      <div class="hilera">
+        <section class="info">
+          <img src="graficos/img3.png" alt="" class="myimages">
+        </section>
+        <section class="info">
+          <h2 class="subT">Misión</h2>
+          <p class="ContentText">Elaborar y comercializar productos alimenticios con elevados estándares de calidad, altos niveles de servicios y excelencia, a precios competitivos para nuestros consumidores, lo que permite el desarrollo sostenible de la empresa, sus colaboradores y fiel compromiso con la sociedad y el medio ambiente.</p>
+        </section>
+      </div>
+      <div class="hilera">
+        <section class="info">
+          <h2 class="subT">Visión</h2>
+          <p class="ContentText">Constituirse en una Empresa líder en el mercado regional, con presencia sólida a nivel nacional, en la producción y comercialización de embutidos y carnes, utilizando para ello la eficiencia y eficacia de su capital humano, para posicionar la calidad característica de nuestros productos, a través de una organizada distribución y excelente servicio.</p>
+        </section>
+        <section class="info">
+          <img src="graficos/img4.png" alt="" class="myimages">
+        </section>
+      </div>
+    </div>
+    <br>
+    <!-- Pie de pagina -->
+    <footer>
+      <div style="background:url( graficos/fondodiv.png);">
+        <section>
+          <ul>
+            <b>Empresa</b>
+            <li><a href="index.html"><br>Inicio</a></li><br>
+            <li><a href="nosotros.html">Nosotros</a></li><br>
+            <li><a href="productos.html">Productos</a></li><br>
+            <li><a href="recetario.html">Recetario</a></li><br>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </section>
+        <section>
+          <br>
+          <p><b>Dirección <br></b><br>Píllaro-Tungurahua</p>
+          <p><b>Contacto <br></b><br>098 848 2712 / 0990667634</p>
+        </section>
+        <section>
+          <p><b><br>Redes Sociales</b></p>
+          <ul>
+            <li><a target=_blank href="https://www.facebook.com/Embutidos-El-Placer-1095237517301805/"><img src="graficos/facebook.png" alt="facebook" width="20px"> Facebook</a></li><br>
+            <li><a target=_blank href="https://www.instagram.com/?hl=es-la"><img src="graficos/instagram.png" alt="instagram" width="20px"> Instagram</a></li><br>
+            <li><a target=_blank href="https://twitter.com/?lang=es"><img src="graficos/twitter.png" alt="twitter" width="20px"> Twitter</a></li>
+          </ul>
+        </section>
+      </div>
+      <!-- Código js -cambio de color al pasar el mouse en los enlaces -->
+      <script>
+        window.onload = function() {
+          elemH = document.querySelectorAll('a');
+
+          for (var i = 0; i < elemH.length; i++) {
+            elemH[i].onmouseover = function() {
+              return this.style.color = "#e7b504";
+            }
+            elemH[i].onmouseout = function() {
+              return this.style.color = "white";
+            }
+          }
+        }
+      </script>
+      <div id="copyrigth">
+        <p>DERECHOS RESERVADOS EMBUTIDOS EL PLACER <br>PÍLLARO-ECUADOR</p>
+      </div>
+    </footer>
+</body>
+</html>
